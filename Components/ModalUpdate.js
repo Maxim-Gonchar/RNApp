@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { StyleSheet, View, TextInput, Text, TouchableOpacity, Modal } from 'react-native';
+import { StyleSheet, View, TextInput, Text, TouchableOpacity, Modal, Alert } from 'react-native';
 import { useDispatch } from 'react-redux';
 import { getSecondName, getFistName } from '../Redux/Reducer';
 import { Context } from '../Context';
